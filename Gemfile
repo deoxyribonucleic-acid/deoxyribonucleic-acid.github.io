@@ -14,3 +14,4 @@ gem 'github-pages'
 gem "csv", "~> 3.3"
 
 gem "liquid", "~> 4.0.4"
+gem 'connection_pool', '2.5.0'

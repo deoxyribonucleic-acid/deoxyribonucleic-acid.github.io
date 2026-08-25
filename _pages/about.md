@@ -13,7 +13,6 @@ My research focuses on designing efficient image compression frameworks and inte
 
 I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vision, machine learning, and multi-modal AI.
 
-
 ## 📚 Education  
 
 - **M.S. in Electrical and Computer Engineering**  
