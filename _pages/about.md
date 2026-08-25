@@ -7,49 +7,53 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year M.S. student in Electrical and Computer Engineering at the University of Michigan, Ann Arbor. Before joining UMich, I received my B.E. in Digital Media Technology from Communication University of China, advised by [Prof. Qi Mao](https://sites.google.com/view/qi-mao/).
+I am a first-year Ph.D. student in Electrical and Computer Engineering at Purdue University. 
 
-My research focuses on designing efficient image compression frameworks and intelligent agents that bridge perception and action across domains. I have published in IEEE Transactions on Image Processing (TIP) and the Data Compression Conference (DCC), and contributed to multiple research projects in computer vision and large language models. 
+<!-- Prior to joining Purdue, I received my B.E. from Communication University of China and my M.S. from the University of Michigan, Ann Arbor.  -->
 
-I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vision, machine learning, and multi-modal AI.
+<!-- My research focuses on designing efficient image compression frameworks and intelligent agents that bridge perception and action across domains. I have published in IEEE Transactions on Image Processing (TIP) and the Data Compression Conference (DCC), and contributed to multiple research projects in computer vision and large language models. 
+
+I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vision, machine learning, and multi-modal AI. -->
 
 ## 📚 Education  
 
+- **Ph.D. in Electrical and Computer Engineering**  
+  *Purdue University, West Lafayette (Aug 2026 - Exp. May 2031)*  
+
 - **M.S. in Electrical and Computer Engineering**  
-  *University of Michigan, Ann Arbor (Aug 2024 - Exp. Dec 2025)*  
-  **(GPA: 3.95/4.0)**  
-  Selected Coursework: Probability & Random Processes, Machine Learning, Matrix Methods for ML, Image Processing, Computer Vision
+  *University of Michigan, Ann Arbor (Aug 2024 - May 2026)*  
 
-- **B.E. in Digital Media Technology** **(GPA: 3.77/4.0)**  
+- **B.E. in Digital Media Technology** 
   *Communication University of China (Sept 2020 - June 2024)*  
-  **First Class Scholarship**, School of Information and Communication Engineering (2020)  
-  Selected Coursework: Machine Learning, Signal Processing, Data Structures & Algorithms, Linear Algebra, Probability & Statistics
 
-## 🔬 Research  
+## 🔬 Experience
 ### Deep Learning Group, Department of Computer Science Engineering
-*University of Michigan, Ann Arbor | Research Intern (June 2025 - Ongoing)*  
+*University of Michigan, Ann Arbor | Research Intern (June 2025 - May 2026)*  
 **Advisor**: [Prof. Honglak Lee](http://web.eecs.umich.edu/~honglak/)  
 
-**Video-to-Dataset Generation for Cross-Platform Computer Agents**
+<!-- **Video-to-Dataset Generation for Cross-Platform Computer Agents**
 - Aims to scale MONDAY (CVPR 2025)’s video-to-dataset paradigm to desktop agents by enhancing the action understanding and annotation capability across platforms.  
 - Rebuilt and modularized the original action identification pipeline to improve extensibility and maintainability. Migrated the pipeline from OpenAI APIs to local LLM inference using the vLLM framework, implemented an asynchronous, batch-supporting backend for efficient large-scale evaluation.  
-- Collaborated with team members in redesigning GUI Action Space and corresponding prompt templates to accommodate desktop-specific UI behaviors, enhancing execution accuracy and robustness.
+- Collaborated with team members in redesigning GUI Action Space and corresponding prompt templates to accommodate desktop-specific UI behaviors, enhancing execution accuracy and robustness. -->
 
 ### Mobility Transformation Lab
-*University of Michigan, Ann Arbor | Research Intern (Feb 2025 - Ongoing)*  
+*University of Michigan, Ann Arbor | Research Intern (Feb 2025 - May 2026)*  
 **Advisor**: [Prof. Henry Liu](https://traffic.engin.umich.edu)
 
-**Language-Guided Corner Case Generation for Traffic Simulation**
+<!-- **Language-Guided Corner Case Generation for Traffic Simulation**
 - Led the development of a controllable traffic simulation framework that generates realistic corner cases from natural language input, enabling targeted scenario creation for autonomous vehicle testing.  
 - Designed and implemented an LLM-based vehicle and behavior selection agent to analyze traffic scenes, identify target vehicles, and filter driving behaviors according to user-specified semantic instructions.  
 - Integrated the VBD (Versatile Behavior Diffusion)'s planner and simulator into the pipeline: the planner generates physically-consistent future trajectories conditioned on constraints from the selection agent, and the simulator synthesizes controllable driving behaviors that satisfy both semantic and physical requirements.  
-- Trained a VBD checkpoint from scratch to reproduce published results, ensuring reproducibility and providing a validated baseline for subsequent experiments.
+- Trained a VBD checkpoint from scratch to reproduce published results, ensuring reproducibility and providing a validated baseline for subsequent experiments. -->
+
+### Algorithm Intern
+*DeTool Technology Co., Ltd. Ningbo, China (July 2023 – Aug 2023)*  
 
 ### State Key Laboratory of Media Convergence and Communication
 *Communication University of China, Beijing | Research Assistant (Nov 2022 – Dec 2024)*  
 **Advisor**: [Prof. Qi Mao](https://sites.google.com/view/qi-mao/)  
 
-**Scalable Face Image Coding via StyleGAN Prior**
+<!-- **Scalable Face Image Coding via StyleGAN Prior**
 - Benchmarked state-of-the-art traditional codecs (HEVC, VVC) for human face images, and developed a parallelized Matlab toolkit for large-scale compression pipeline evaluation.  
 - Finetuned pretrained neural compression models (HiFiC, CompressAI) on the FFHQ dataset to evaluate perceptual quality under facial priors, using PSNR, LPIPS, and DISTS as evaluation criteria.  
 - Contributed to experiment section writing and figure generation, paper accepted by IEEE Transactions on Image Processing (TIP).  
@@ -59,7 +63,7 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
 - Designed a hierarchical encoder to decompose content into semantic, structural, and textural priors, enabling scalable bitrate control and progressive decoding at ultra-low bitrates (<0.02 bpp).  
 - Achieved state-of-the-art performance over VVC, JPEG2000, and Perco on perceptual metrics (DISTS, NIQE) and semantic fidelity (CLIPSim, FID) on the AGIQA-3K dataset.  
 - Enabled downstream visual editing (e.g., object erasing, structure retouching) by directly manipulating layered priors without full decoding, facilitating semantic-level interaction with compressed representations.  
-- Results published as first-author paper at the 2025 Data Compression Conference (DCC), a flagship venue in image/video coding research.
+- Results published as first-author paper at the 2025 Data Compression Conference (DCC), a flagship venue in image/video coding research. -->
 
 ## 📝 Publications  
 
@@ -72,13 +76,11 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
    Published in **IEEE Transactions on Image Processing (TIP), 2024**.  
    - [IEEE Link](https://ieeexplore.ieee.org/document/10372532)  
 
-## 🧑🏻‍💻 Internship Experience  
-### Algorithm Intern
-*DeTool Technology Co., Ltd. Ningbo, China (July 2023 – Aug 2023)*  
-- Developed C++/Julia modules for multigrid-based linear solvers, integrating third-party libraries and optimizing coarsening and iterative parameters, improving computation speed by 3–5× on large matrices.  
-- Built C++/Qt data processing and visualization tools to enable interactive analysis of test datasets, designing efficient data structures for real-time rendering.
+<!-- ## 🧑🏻‍💻 Internship Experience   -->
+<!-- - Developed C++/Julia modules for multigrid-based linear solvers, integrating third-party libraries and optimizing coarsening and iterative parameters, improving computation speed by 3–5× on large matrices.  
+- Built C++/Qt data processing and visualization tools to enable interactive analysis of test datasets, designing efficient data structures for real-time rendering. -->
 
-## 🎮 Projects
+<!-- ## 🎮 Projects
 <style>
 /* ---- Project cards: split into TOP (image + summary) and BOTTOM (details) ---- */
 .project-card { 
@@ -129,7 +131,7 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
 </style>
 
 <!-- Project 2 -->
-<div class="project-card">
+<!-- <div class="project-card">
   <div class="project-top">
     <img class="project-image" src="../teaser_images/a11ys.jpeg" alt="macOS GUI Agent teaser" />
     <div class="project-content">
@@ -148,10 +150,10 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
       </details>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Project 3 -->
-<div class="project-card">
+<!-- <div class="project-card">
   <div class="project-top">
     <img class="project-image" src="../teaser_images/selfsup.png" alt="Demosaicing project teaser" />
     <div class="project-content">
@@ -170,10 +172,10 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
       </details>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Project 1 -->
-<div class="project-card">
+<!-- <div class="project-card">
   <div class="project-top">
     <img class="project-image" src="../teaser_images/328.gif" alt="Jump Jump teaser" />
     <div class="project-content">
@@ -182,4 +184,4 @@ I am seeking Ph.D. opportunities starting in Spring or Fall 2026 in computer vis
       <p>💾 <a href="https://github.com/deoxyribonucleic-acid/Kinect-JumpJump" target="_blank">Code</a> · ▶️ <a href="https://github.com/user-attachments/assets/d8453c23-ac9d-4afa-8766-b3edb803c07c">Video</a></p>
     </div>
   </div>
-</div>
+</div> -->
