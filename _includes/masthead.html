@@ -2,12 +2,9 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
+      <nav id="site-nav-onepage" class="greedy-nav" aria-label="Sections">
+        <button class="hidden" type="button" aria-label="More sections" aria-expanded="false" aria-controls="nav-more"><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -18,12 +15,13 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
-          </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+  </div>
+  <!-- full-width dropdown for compact mode; filled by assets/js/onepage-nav.js -->
+  <div id="nav-more" class="nav-menu">
+    <div class="nav-menu__bg" aria-hidden="true"></div>
+    <div class="nav-menu__body"><ul class="nav-menu__list"></ul></div>
   </div>
 </div>

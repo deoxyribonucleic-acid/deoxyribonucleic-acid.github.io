@@ -1,3 +1,9 @@
 <!-- start custom analytics snippet -->
-
+{%- comment -%}
+  Umami, self-hosted. Emitted only in production builds (the GitHub Actions
+  deploy sets JEKYLL_ENV=production), so local previews are not counted.
+{%- endcomment -%}
+{%- if jekyll.environment == "production" %}
+<script defer src="https://163.192.193.63/umami/script.js" data-website-id="f9fb2535-eecc-445a-9674-ca51eef7e0f9"></script>
+{%- endif %}
 <!-- end custom analytics snippet -->

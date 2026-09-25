@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ruijie Chen's HomePage"
+title                    : "Ruijie Chen"
 title_separator          : "-"
 name                     : &name "Ruijie Chen"
-description              : &description "personal description"
+description              : &description "Ruijie Chen is a Ph.D. student in Electrical and Computer Engineering at Purdue University working on visual compression, generative models, and multimodal AI agents."
 url                      : https://deoxyribonucleic-acid.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "deoxyribonucleic-acid/deoxyribonucleic-acid.github.io"
@@ -23,9 +23,9 @@ repository               : "deoxyribonucleic-acid/deoxyribonucleic-acid.github.i
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ruijie Chen "
+  name             : "Ruijie Chen"
   pronouns         : # example: "she/her"  
-  bio              : " "
+  bio              : "Ph.D. Student, Purdue ECE"
   location         : "West Lafayette, IN"
   employer         : "Purdue University"
   uri              : # URL
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "ruijie-chen-6a6a48327"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -154,7 +154,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "google-analytics-4", "custom" (Umami, see _includes/analytics-providers/custom.html)
   google:
     tracking_id          :
 

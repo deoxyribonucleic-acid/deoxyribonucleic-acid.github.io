@@ -17,6 +17,17 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="var(--global-bg-color)"/>
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"/>
+<meta name="theme-color" content="#1d1c1a" media="(prefers-color-scheme: dark)"/>
+
+<!-- Color scheme follows the browser/OS preference; there is no manual toggle.
+     Clear any preference saved by the old toggle and apply the browser setting
+     before first paint so dark mode does not flash light. -->
+<script>
+  try { localStorage.removeItem("theme"); } catch (e) {}
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+</script>
 
 <!-- end custom head snippets -->

@@ -1,0 +1,23 @@
+# News items rendered on the home page.
+#
+# Fields:
+#   date   required  "YYYY-MM" (or "YYYY-MM-DD"), quoted; shown as "Aug 2026".
+#                    Items are sorted by this field, newest first, so the order
+#                    in this file does not matter.
+#   text   required  Markdown: *italic*, **bold** and [links](https://...) work.
+#
+# Example:
+#   - date: "2026-10"
+#     text: "Gave a talk on *ScreenTutor* at [Some Seminar](https://example.org)."
+
+- date: "2026-08"
+  text: "Started my Ph.D. in Electrical and Computer Engineering at Purdue University."
+
+- date: "2026-07"
+  text: "Our paper *ScreenTutor: Learning Computer-Use Agents from Unlabeled Tutorial Videos* was accepted to the COLM 2026 Workshop on Lifelong Agents."
+
+- date: "2026-05"
+  text: "Received my M.S. in Electrical and Computer Engineering from the University of Michigan, Ann Arbor."
+
+- date: "2025-03"
+  text: "Our paper *Stable Diffusion is a Natural Cross-Modal Decoder for Layered AI-Generated Image Compression* was published at DCC 2025."

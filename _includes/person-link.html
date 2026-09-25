@@ -1,0 +1,5 @@
+{%- comment -%}
+Render a person's name, linked when a URL is given.
+Usage: {% include person-link.html name=job.advisor url=job.advisor_url %}
+{%- endcomment -%}
+{%- if include.url -%}<a href="{{ include.url }}">{{ include.name }}</a>{%- else -%}{{ include.name }}{%- endif -%}

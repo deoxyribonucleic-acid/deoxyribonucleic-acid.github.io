@@ -1,0 +1,48 @@
+# Research and work experience rendered on the home page (newest first).
+#
+# Fields:
+#   org, role, location, period   required
+#   logo                          optional; file under images/logos/, otherwise a
+#                                 generic placeholder icon is shown
+#
+# Supervision (pick ONE of the two shapes):
+#   advisor / advisor_url                       -> one line  "Advisor: ..."
+#   faculty_advisor / faculty_advisor_url       -> two lines "Faculty Advisor: ..."
+#   mentor / mentor_url                            and       "Research Mentor: ..."
+# The *_url fields are optional; a name without a URL is shown as plain text.
+
+- org: "Purdue Digital Twin Lab, Purdue University"
+  role: "Graduate Research Assistant"
+  location: "West Lafayette, IN"
+  period: "Aug 2026 – Present"
+  advisor: "Prof. Ziran Wang"
+  advisor_url: "https://ziranw.github.io/"
+  logo: "purdue.svg"
+
+- org: "Deep Learning Group, University of Michigan"
+  role: "Research Intern"
+  location: "Ann Arbor, MI"
+  period: "June 2025 – May 2026"
+  faculty_advisor: "Prof. Honglak Lee"
+  faculty_advisor_url: "http://web.eecs.umich.edu/~honglak/"
+  mentor: "Yeda Song, Ph.D. Candidate"
+  mentor_url: "https://yedasong.com"
+  logo: "umich.svg"
+
+- org: "Mobility Transformation Lab, University of Michigan"
+  role: "Research Intern"
+  location: "Ann Arbor, MI"
+  period: "Feb 2025 – May 2026"
+  faculty_advisor: "Prof. Henry Liu"
+  faculty_advisor_url: "https://traffic.engin.umich.edu"
+  mentor: "Jiawei Wang, Ph. D."
+  mentor_url: "https://wjiawei.com"
+  logo: "mtl.png"
+
+- org: "State Key Laboratory of Media Convergence and Communication, Communication University of China"
+  role: "Research Assistant"
+  location: "Beijing, China"
+  period: "Nov 2022 – Dec 2024"
+  advisor: "Prof. Qi Mao"
+  advisor_url: "https://helenmao.github.io"
+  logo: "mcc.png"

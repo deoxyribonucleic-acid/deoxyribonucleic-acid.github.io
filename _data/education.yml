@@ -1,0 +1,23 @@
+# Education entries rendered on the home page (newest first).
+# `logo` is a file name under images/logos/.
+
+- degree: "Ph.D. in Electrical and Computer Engineering"
+  school: "Purdue University"
+  url: "https://engineering.purdue.edu/ECE"
+  location: "West Lafayette, IN"
+  period: "Aug 2026 – Exp. May 2031"
+  logo: "purdue.svg"
+
+- degree: "M.S. in Electrical and Computer Engineering"
+  school: "University of Michigan"
+  url: "https://ece.engin.umich.edu/"
+  location: "Ann Arbor, MI"
+  period: "Aug 2024 – May 2026"
+  logo: "umich.svg"
+
+- degree: "B.E. in Digital Media Technology"
+  school: "Communication University of China"
+  url: "https://www.cuc.edu.cn/"
+  location: "Beijing, China"
+  period: "Sept 2020 – June 2024"
+  logo: "cuc.png"

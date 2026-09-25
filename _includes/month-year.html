@@ -1,0 +1,8 @@
+{%- comment -%}
+Format a "YYYY-MM" or "YYYY-MM-DD" value (string or YAML date) as "Mon YYYY".
+Usage: {% include month-year.html date=item.date %}
+{%- endcomment -%}
+{%- assign _d = include.date | append: "" | split: "-" -%}
+{%- assign _months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+{%- assign _m = _d[1] | plus: 0 | minus: 1 -%}
+{{- _months[_m] }} {{ _d[0] -}}
